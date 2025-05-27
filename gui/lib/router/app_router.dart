@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gui/screen/HomeScreen/homeScreens.dart';
 import 'package:gui/screen/OnboardingScreen/onBoardingScreen.dart';
+import 'package:gui/screen/DepressionTestScreen/depressionScreen.dart';
 
 abstract final class AppRouter {
   static const String root = '/';
@@ -13,7 +14,7 @@ abstract final class AppRouter {
       case home:
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       case depressionTest:
-        return MaterialPageRoute(builder: (_) => const HomeScreen());
+        return MaterialPageRoute(builder: (_) => const PredictPage());
       default:
         return MaterialPageRoute(builder: (_) => const onBoardingScreen());
     }

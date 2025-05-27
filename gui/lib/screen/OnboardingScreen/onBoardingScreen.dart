@@ -57,8 +57,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
                 subtitle: "DepressCare",
                 description1: "🧠 Ứng dụng hỗ trợ phát hiện trầm cảm",
                 description2: "📊 Đánh giá dựa trên dữ liệu chính xác",
-                description3: "💬 Hỗ trợ tư vấn và chăm sóc sức khỏe tâm thần",
-                description4: "❤️ Giúp bạn lấy lại cân bằng cuộc sống",
+                description3: "❤️ Giúp bạn lấy lại cân bằng cuộc sống",
                 backgroundWidget:
                     Image.asset("images/im.jpg", fit: BoxFit.cover),
               ),
@@ -67,8 +66,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
                 subtitle: "Hỗ trợ bạn mọi lúc mọi nơi",
                 description1: "📝 Câu hỏi đánh giá trầm cảm chuẩn PHQ-9",
                 description2: "📈 Phân tích và dự đoán nguy cơ trầm cảm",
-                description3: "💡 Gợi ý phương pháp cải thiện tâm trạng",
-                description4: "🤝 Kết nối với chuyên gia tâm lý khi cần",
+                description3: "💡 Xem thông tin tình trạng trầm cảm hiện nay",
                 backgroundWidget:
                     Image.asset("images/image.png", fit: BoxFit.cover),
               ),
@@ -77,8 +75,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
                 subtitle: "Chăm sóc sức khỏe tâm thần hiệu quả",
                 description1: "⏳ Tiết kiệm thời gian khám sàng lọc",
                 description2: "🔍 Phát hiện sớm các dấu hiệu trầm cảm",
-                description3: "📚 Tăng nhận thức và hiểu biết về tâm lý",
-                description4: "🌱 Hỗ trợ tinh thần phát triển tích cực",
+                description3: "🌱 Hỗ trợ tinh thần phát triển tích cực",
                 backgroundWidget:
                     Image.asset("images/im3.jpg", fit: BoxFit.cover),
               ),
@@ -87,8 +84,7 @@ class _onBoardingScreenState extends State<onBoardingScreen> {
                 subtitle: "Chỉ vài bước đơn giản",
                 description1: "🖊 Trả lời bộ câu hỏi đánh giá trầm cảm",
                 description2: "⏳ Đợi kết quả phân tích tự động",
-                description3: "💬 Nhận tư vấn và gợi ý hỗ trợ phù hợp",
-                description4: "🚀 Bắt đầu hành trình chăm sóc bản thân!",
+                description3: "🚀 Bắt đầu hành trình chăm sóc bản thân!",
                 backgroundWidget:
                     Image.asset("images/im4.jpg", fit: BoxFit.cover),
               ),

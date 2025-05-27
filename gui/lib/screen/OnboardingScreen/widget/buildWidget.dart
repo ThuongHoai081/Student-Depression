@@ -6,7 +6,6 @@ Widget buildPage({
   required String description1,
   required String description2,
   required String description3,
-  required String description4,
   Color backgroundColor = Colors.white,
   Widget? backgroundWidget,
 }) {
@@ -28,7 +27,10 @@ Widget buildPage({
               ),
               Text(
                 subtitle,
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.green),
+                style: TextStyle(
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.green),
               ),
               SizedBox(height: 30),
               Text(
@@ -44,12 +46,6 @@ Widget buildPage({
               SizedBox(height: 20),
               Text(
                 description3,
-                textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              ),
-              SizedBox(height: 20),
-              Text(
-                description4,
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
